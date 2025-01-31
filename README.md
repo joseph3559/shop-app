@@ -1,60 +1,39 @@
-# ShopApp
+# 🛍️ Shop App – Kyosk Digital Services Assessment
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+## 📌 Overview
+This is a **Simple Shop Web Application** built with **Angular 14+**, designed as part of the **Kyosk Digital Services Junior Frontend & ERP Developer Assessment**. The application consumes a **FAKE API** to display and interact with products and categories, allowing users to browse, search, and manage their shopping cart.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
+✅ **Home Page** – Displays product categories and featured products
+✅ **Product Search** – Allows users to search for products by name
+✅ **Product Details Page** – Shows detailed information about a selected product
+✅ **Categories Page** – Displays all product categories
+✅ **Cart Page** – Allows users to view and manage items in their cart
+✅ **Checkout Page** – Implements a checkout process
 
+**Bonus Features (If Implemented):**
+➕ **Unit Testing** with Jasmine & Karma
+➕ **GraphQL Integration** (If used instead of REST)
+➕ **Progressive Web App (PWA)**
+➕ **Deployment** (e.g., Vercel, Netlify)
+
+---
+
+## 🏗️ Technologies Used
+- **Angular 14+** – Frontend Framework
+- **TypeScript** – Language for Angular
+- **Tailwind CSS / Bootstrap / Material UI** – Styling (Specify which one you used)
+- **FAKE API** – Backend for product and category data
+- **Angular Services & RxJS** – API Handling
+- **Jasmine & Karma** – Unit Testing (If implemented)
+
+---
+
+## 🔧 Installation & Setup
+
+### **1️⃣ Clone the Repository**
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# shop-app
+git clone https://github.com/joseph3559/shop-app.git
+cd shop-app
