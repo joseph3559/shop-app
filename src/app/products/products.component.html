@@ -1,0 +1,19 @@
+<div class="products-container">
+    <h1>Our Products</h1>
+
+    <div class="filters">
+      <label for="search">Search by Title:</label>
+      <input id="search" type="text" [(ngModel)]="searchTitle" placeholder="Enter product title">
+      <button (click)="filterByTitle()">Search</button>
+    </div>
+
+    <div class="products-grid">
+      <div *ngFor="let product of filteredProducts" class="product-card">
+        <img [src]="product.images[0]" alt="Product Image">
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.description }}</p>
+        <p><strong>Price:</strong> ${{ product.price }}</p>
+        <p><strong>Category:</strong> {{ product.category.name }}</p>
+      </div>
+    </div>
+</div>
